@@ -71,13 +71,20 @@ All `/books` and `/reviews` endpoints are protected and require a valid **Bearer
    git clone https://github.com/yourusername/book-review-fastapi.git
    cd book-review-fastapi
 
-2. #Create a virtual environment
+---
+
+##Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-3. #Install dependencies
+
+---
+
+
+##Install dependencies
 pip install -r requirements.txt
 
+---
 
-4. #Run the app
+##Run the app
 uvicorn main:app --reload
